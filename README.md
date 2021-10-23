@@ -1,1 +1,1 @@
-Ich habe mache meine Eigene website
+Ich habe mache meine eigene website
