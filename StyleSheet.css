@@ -1,6 +1,8 @@
 body {
     background-image: url(https://images.wallpaperscraft.com/image/single/leaves_line_neon_139772_1920x1200.jpg);
-    background-color:rgb(87, 87, 87)
+    background-color:rgb(87, 87, 87);
+    height: 100%;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
 }
 
