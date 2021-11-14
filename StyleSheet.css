@@ -17,6 +17,11 @@ body {
     text-align: center;
 }
 
+.h11 {
+    text-align: center;
+    color:rgb(255, 255, 255)
+}
+
 *{
     padding: 0;
     margin: 0;
