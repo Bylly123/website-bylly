@@ -111,6 +111,12 @@ body {
     border-radius: 10px;
 }
 
+.mege {
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
 @keyframes glowing {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
