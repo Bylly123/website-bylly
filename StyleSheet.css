@@ -17,7 +17,7 @@ body {
     text-align: center;
 }
 
-.double {border-style: double;}
+iframe {border-style: double;}
 
 .h11 {
     text-align: center;
