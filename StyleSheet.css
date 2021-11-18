@@ -17,9 +17,7 @@ body {
     text-align: center;
 }
 
-p.double {
-    border-style: double;
-}
+.double {border-style: double;}
 
 .h11 {
     text-align: center;
