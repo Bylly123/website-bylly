@@ -31,7 +31,7 @@ body {
 
 .topnav {
     background-color:#000;
-    overflow: hidden;
+    overflow: scroll;
     display:flex;
     text-transform: uppercase;
 }
