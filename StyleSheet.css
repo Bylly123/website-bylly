@@ -23,35 +23,38 @@ body {
     color:white;
 }
 
-
-
-.topnav {
-    background-color:#000;
-    overflow: hidden;
-    text-transform: uppercase;
-    display: none;
+*{
+    padding: 0;
+    margin: 0%;
+    border-bottom: #000;
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: #000;
+    text-transform: uppercase;
+}
+  
 .topnav a {
-    color: white;
-    padding: 14px 16px;
+    float: left;
+    color: #f2f2f2;
     text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     transition: 1s;
     border-bottom: 3px solid transparent;
 }
-
+  
 .topnav a:hover {
-    transition: 1s;
-    border: none;
-    border-bottom: 3px solid green;
     color: green;
+    border-bottom: 3px solid green;
 }
-
+  
 .topnav a.active {
     color: red;
     border-bottom: 3px solid red;
+    text-align: center;
 }
 
 .nav {
@@ -60,7 +63,6 @@ body {
     text-align: center;
     overflow: hidden;
     text-transform: uppercase;
-    display: none;
 }
 
 .nav a {
