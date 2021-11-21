@@ -76,10 +76,16 @@ img {
 }
 
 .topnav a::after {
-    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
     content: '.';
-    margin: 0;
-    opacity: 0;
+    color: transparent;
+    background: #aaa;
+    height: 1px;
 }
 
 .topnav a::after {
