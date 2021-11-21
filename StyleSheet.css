@@ -217,7 +217,7 @@ img {
   margin-bottom: 5px;
   position: relative;
   
-  background: #000000;
+  background: gray;
   border-radius: 3px;
   
   z-index: 1;
