@@ -170,8 +170,12 @@ img {
     .checkbox {
         display: none;
     }
-
-    
+    .menu {
+        display: none;
+    }
+    .menuToggle {
+        display: none;
+    }
 }
 
 /* Handy view */
