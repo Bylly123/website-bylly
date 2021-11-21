@@ -52,7 +52,7 @@ img {
   
 .topnav a:hover {
     color: green;
-    border-bottom: all ease-in-out 3px green;
+    border-bottom: 3px solid green;
 }
   
 .topnav a.active {
