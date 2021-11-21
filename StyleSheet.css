@@ -60,9 +60,6 @@ body {
 .nav {
     background-color: black;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200%;
     color: white;
     text-align: center;
     overflow: hidden;
