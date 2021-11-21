@@ -61,7 +61,7 @@ body {
     text-align: center;
     overflow: hidden;
     text-transform: uppercase;
-    display: flex;
+    display: none;
 }
 
 .nav a {
