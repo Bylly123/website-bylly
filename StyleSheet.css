@@ -82,6 +82,11 @@ img {
     opacity: 0;
 }
 
+.topnav a::after {
+    color: #fff;
+    z-index: 1;
+}
+
 .nav {
     background-color: black;
     list-style-type: none;
