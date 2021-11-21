@@ -75,7 +75,7 @@ body {
 
 .nav a.active {
     border-bottom: 3px solid red;
-    color: green;
+    color: red;
 }
 
 .glow-on-hover {
