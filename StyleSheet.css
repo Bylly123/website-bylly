@@ -161,6 +161,9 @@ img {
     .nav {
         display: none;
     }
+    .topnav {
+        display: block;
+    }
 }
 
 @media only screen and (max-width:560px){
