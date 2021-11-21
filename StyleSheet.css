@@ -46,7 +46,7 @@ img {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    transition: 1s;
+    transition: all ease-in-out 250ms;
     border-bottom: 3px solid transparent;
 }
   
