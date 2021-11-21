@@ -62,6 +62,7 @@ body {
     color: white;
     text-align: center;
     overflow: hidden;
+    float: left;
     text-transform: uppercase;
 }
 
