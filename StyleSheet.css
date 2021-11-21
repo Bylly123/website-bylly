@@ -37,7 +37,6 @@ img {
     overflow: hidden;
     background-color: #000;
     text-transform: uppercase;
-    display: inline-block;
 }
   
 .topnav a {
