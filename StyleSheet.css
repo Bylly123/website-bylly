@@ -36,7 +36,6 @@ iframe {border: 4px solid green;}
     overflow: hidden;
     display:flex;
     text-transform: uppercase;
-    position: absolute;
 }
 
 .topnav a {
