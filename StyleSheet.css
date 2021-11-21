@@ -48,6 +48,7 @@ img {
     font-size: 17px;
     transition: 1s;
     border-bottom: 3px solid transparent;
+    position: relative;
 }
   
 .topnav a:hover {
