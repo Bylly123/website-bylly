@@ -34,7 +34,6 @@ iframe {border: 4px solid green;}
 .topnav {
     background-color:#000;
     overflow: hidden;
-    display:none;
     text-transform: uppercase;
 }
 
