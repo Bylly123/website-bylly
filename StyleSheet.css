@@ -318,6 +318,9 @@ img {
     .menuToggle {
         display: none;
     }
+    #menuToggle {
+        display: none;
+    }
 }
 
 /* Handy view */
