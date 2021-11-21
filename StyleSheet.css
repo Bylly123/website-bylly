@@ -47,13 +47,13 @@ img {
     text-decoration: none;
     font-size: 17px;
     transition: 1s;
-    border-bottom: 1px solid transparent;
+    border-bottom: 3px solid transparent;
     position: relative;
 }
   
 .topnav a:hover {
     color: green;
-    border-bottom: 1px solid green;
+    border-bottom: 3px solid green;
 }
   
 .topnav a.active {
