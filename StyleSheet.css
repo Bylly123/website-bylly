@@ -159,12 +159,12 @@ img {
 
 @media only screen and (min-width:560px){
     .nav {
-        display: none;
+        display: none !important;
     }
 }
 
 @media only screen and (max-width:560px){
     .topnav {
-        display: none;
+        display: none !important;
     }
 }
