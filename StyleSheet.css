@@ -74,7 +74,7 @@ body {
 }
 
 .nav a.active {
-    border-bottom: 3px solid red;
+    border-bottom: 3px 16px solid red;
     color: red;
 }
 
