@@ -167,6 +167,11 @@ img {
     .navigation {
         display: none;
     }
+    .checkbox {
+        display: none;
+    }
+
+    
 }
 
 /* Handy view */
