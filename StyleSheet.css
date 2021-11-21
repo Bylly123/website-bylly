@@ -30,7 +30,7 @@ body {
     background-color:#000;
     overflow: hidden;
     text-transform: uppercase;
-    display: block;
+    display: none;
 }
 
 .topnav a {
