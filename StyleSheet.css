@@ -75,6 +75,13 @@ img {
     height: 1px;
 }
 
+.topnav a::after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+}
+
 .nav {
     background-color: black;
     list-style-type: none;
