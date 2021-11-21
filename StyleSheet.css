@@ -52,7 +52,6 @@ img {
   
 .topnav a:hover {
     border-bottom: 3px solid green;
-    border-bottom-width: 10px;
 }
   
 .topnav a.active {
