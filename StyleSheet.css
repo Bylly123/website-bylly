@@ -37,6 +37,7 @@ img {
     overflow: hidden;
     background-color: #000;
     text-transform: uppercase;
+    transition: 1s;
 }
   
 .topnav a {
@@ -46,12 +47,12 @@ img {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    transition: all ease-in 1s;
     border-bottom: 3px solid transparent;
 }
   
 .topnav a:hover {
     border-bottom: 3px solid green;
+    border-bottom-width: 10px;
 }
   
 .topnav a.active {
