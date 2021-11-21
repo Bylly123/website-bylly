@@ -65,10 +65,12 @@ iframe {border: 4px solid green;}
     text-align: center;
     overflow: hidden;
     text-transform: uppercase;
+    display: flex;
 }
 
 .nav a {
     color: white;
+    float: left;
 }
 
 .nav a.active {
@@ -153,4 +155,16 @@ iframe {border: 4px solid green;}
 img {
     width: 100%;
     height: auto;
+}
+
+@media only screen and (min-width:560px){
+    .nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:560px){
+    .topnav {
+        display: none;
+    }
 }
