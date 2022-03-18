@@ -444,7 +444,7 @@ img {
 
 .drop {
     backdrop-filter: blur(10px);
-    height: 150px;
+    height: auto;
     width: 500px;
     border: transparent;
     border-radius: 10px;
