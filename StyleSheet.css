@@ -442,6 +442,10 @@ img {
     }
 }
 
+.drop {
+    backdrop-filter: blur(10px);
+}
+
 
 /* Handy view */
 
