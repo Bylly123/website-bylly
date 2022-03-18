@@ -446,7 +446,7 @@ img {
     backdrop-filter: blur(10px);
     width: 500px;
     border: transparent;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 
