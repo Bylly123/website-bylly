@@ -1,477 +1,476 @@
-body {
-    background-image: url(https://images.wallpaperscraft.com/image/single/leaves_line_neon_139772_1920x1200.jpg);
-    background-color: rgb(87, 87, 87);
-    height: 100%;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 99%;
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-
-.p12 {
-    color: white;
-}
-
-img {
-    width: 50;
-    height: 50;
-}
-
-.h11 {
-    text-align: center;
-    color: white;
-}
-
-* {
-    padding: 0;
-    margin: 0%;
-    border-bottom: #000;
-}
-
-.topnav {
-    overflow: hidden;
-    background-color: #000;
-    text-transform: uppercase;
-}
-
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    transition: 1s;
-    border-bottom: 3px solid transparent;
-    position: relative;
-}
-
-.topnav a:hover {
-    color: green;
-    border-bottom: 3px solid green;
-}
-
-.topnav a.active {
-    color: red;
-    border-bottom: 3px solid red;
-    text-align: center;
-}
-
-.topnav::after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 0%;
-    content: '.';
-    color: transparent;
-    background: #aaa;
-    height: 1px;
-}
-
-.topnav a::after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 0%;
-    content: '.';
-    color: transparent;
-    background: #aaa;
-    height: 1px;
-}
-
-.topnav a::after {
-    color: #fff;
-    z-index: 1;
-}
-
-.topnav a:hover::after {
-    z-index: -10;
-    animation: fill 1s forwards;
-    -webkit-animation: fill 1s forwards;
-    -moz-animation: fill 1s forwards;
-    opacity: 1;
-}
-
-.nav {
-    background-color: black;
-    list-style-type: none;
-    color: white;
-    text-align: center;
-    overflow: hidden;
-    text-transform: uppercase;
-}
-
-.nav a {
-    display: block;
-    color: white;
-    padding: 8px 0 8px 16px;
-    text-decoration: none;
-    border-bottom: 3px solid transparent;
-}
-
-.nav a.active {
-    border-bottom: 3px 16px solid red;
-    color: red;
-}
-
-.glow-on-hover {
-    width: 220px;
-    height: 50px;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #111;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
-}
-
-.glow-on-hover:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-}
-
-.glow-on-hover:active {
-    color: #000
-}
-
-.glow-on-hover:active:after {
-    background: transparent;
-}
-
-.glow-on-hover:hover:before {
-    opacity: 1;
-}
-
-.glow-on-hover:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-}
-
-.mege {
-    animation-name: move;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes glowing {
-    0% {
-        background-position: 0 0;
+    body {
+        background-image: url(https://images.wallpaperscraft.com/image/single/leaves_line_neon_139772_1920x1200.jpg);
+        background-color: rgb(87, 87, 87);
+        height: 100%;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
     }
-    50% {
-        background-position: 400% 0;
+    
+    .footer {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 99%;
+        background-color: black;
+        color: white;
+        text-align: center;
     }
-    100% {
-        background-position: 0 0;
+    
+    .p12 {
+        color: white;
     }
-}
-
-@keyframes move {
-    0% {
-        left: 0px;
-        top: 0px;
+    
+    img {
+        width: 50;
+        height: 50;
     }
-    25% {
-        left: 10px;
-        top: 0px;
+    
+    .h11 {
+        text-align: center;
+        color: white;
     }
-    50% {
-        left: 10px;
-        top: 10px;
+    
+    * {
+        padding: 0;
+        margin: 0%;
+        border-bottom: #000;
     }
-    75% {
-        left: 0px;
-        top: 10px;
+    
+    .topnav {
+        overflow: hidden;
+        background-color: #000;
+        text-transform: uppercase;
     }
-    100% {
-        left: 0px;
-        top: 0px;
+    
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        transition: 1s;
+        border-bottom: 3px solid transparent;
+        position: relative;
     }
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-.button-meet {
-    display: inline-block;
-    background: #111;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    border: 2px solid;
-    border-radius: 10px;
-    border-color: black;
-    color: whitesmoke;
-    padding: 20px 50px;
-    transition: 1s;
-}
-
-.button-support {
-    display: inline-block;
-    background: #111;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    border: 2px solid;
-    border-radius: 10px;
-    border-color: black;
-    color: whitesmoke;
-    padding: 20px 50px;
-    transition: 1s;
-}
-
-.hide1 {
-    border: 2px;
-    border-radius: 5px;
-    opacity: 0%;
-    transition: 0.3s;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.hide2 {
-    border: 2px;
-    border-radius: 5px;
-    opacity: 0%;
-    transition: 0.3s;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.button-meet:hover {
-    text-decoration: 2px underline;
-    text-decoration-color: tomato;
-}
-
-.button-support:hover {
-    text-decoration: 2px underline;
-    text-decoration-color: tomato;
-}
-
-.button-meet:hover+.hide1 {
-    background: black;
-    color: white;
-    opacity: 100%;
-    padding: 50px;
-}
-
-.button-support:hover+.hide2 {
-    background: black;
-    color: white;
-    opacity: 100%;
-    padding: 50px;
-}
-
-#menuToggle {
-    display: block;
-    position: relative;
-    top: 50px;
-    left: 50px;
-    z-index: 1;
-    -webkit-user-select: none;
-    user-select: none;
-}
-
-#menuToggle a {
-    text-decoration: none;
-    color: #232323;
-    transition: color 0.3s ease;
-}
-
-#menuToggle a:hover {
-    color: tomato;
-}
-
-#menuToggle input {
-    display: block;
-    width: 40px;
-    height: 32px;
-    position: absolute;
-    top: -7px;
-    left: -5px;
-    cursor: pointer;
-    opacity: 0;
-    /* hide this */
-    z-index: 2;
-    /* and place it over the hamburger */
-    -webkit-touch-callout: none;
-}
-
-
-/*
+    
+    .topnav a:hover {
+        color: green;
+        border-bottom: 3px solid green;
+    }
+    
+    .topnav a.active {
+        color: red;
+        border-bottom: 3px solid red;
+        text-align: center;
+    }
+    
+    .topnav::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0%;
+        content: '.';
+        color: transparent;
+        background: #aaa;
+        height: 1px;
+    }
+    
+    .topnav a::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0%;
+        content: '.';
+        color: transparent;
+        background: #aaa;
+        height: 1px;
+    }
+    
+    .topnav a::after {
+        color: #fff;
+        z-index: 1;
+    }
+    
+    .topnav a:hover::after {
+        z-index: -10;
+        animation: fill 1s forwards;
+        -webkit-animation: fill 1s forwards;
+        -moz-animation: fill 1s forwards;
+        opacity: 1;
+    }
+    
+    .nav {
+        background-color: black;
+        list-style-type: none;
+        color: white;
+        text-align: center;
+        overflow: hidden;
+        text-transform: uppercase;
+    }
+    
+    .nav a {
+        display: block;
+        color: white;
+        padding: 8px 0 8px 16px;
+        text-decoration: none;
+        border-bottom: 3px solid transparent;
+    }
+    
+    .nav a.active {
+        border-bottom: 3px 16px solid red;
+        color: red;
+    }
+    
+    .glow-on-hover {
+        width: 220px;
+        height: 50px;
+        border: none;
+        outline: none;
+        color: #fff;
+        background: #111;
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+        border-radius: 10px;
+    }
+    
+    .glow-on-hover:before {
+        content: '';
+        background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        background-size: 400%;
+        z-index: -1;
+        filter: blur(5px);
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        animation: glowing 20s linear infinite;
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+        border-radius: 10px;
+    }
+    
+    .glow-on-hover:active {
+        color: #000
+    }
+    
+    .glow-on-hover:active:after {
+        background: transparent;
+    }
+    
+    .glow-on-hover:hover:before {
+        opacity: 1;
+    }
+    
+    .glow-on-hover:after {
+        z-index: -1;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #111;
+        left: 0;
+        top: 0;
+        border-radius: 10px;
+    }
+    
+    .mege {
+        animation-name: move;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes glowing {
+        0% {
+            background-position: 0 0;
+        }
+        50% {
+            background-position: 400% 0;
+        }
+        100% {
+            background-position: 0 0;
+        }
+    }
+    
+    @keyframes move {
+        0% {
+            left: 0px;
+            top: 0px;
+        }
+        25% {
+            left: 10px;
+            top: 0px;
+        }
+        50% {
+            left: 10px;
+            top: 10px;
+        }
+        75% {
+            left: 0px;
+            top: 10px;
+        }
+        100% {
+            left: 0px;
+            top: 0px;
+        }
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .button-meet {
+        display: inline-block;
+        background: #111;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border: 2px solid;
+        border-radius: 10px;
+        border-color: black;
+        color: whitesmoke;
+        padding: 20px 50px;
+        transition: 1s;
+    }
+    
+    .button-support {
+        display: inline-block;
+        background: #111;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border: 2px solid;
+        border-radius: 10px;
+        border-color: black;
+        color: whitesmoke;
+        padding: 20px 50px;
+        transition: 1s;
+    }
+    
+    .hide1 {
+        border: 2px;
+        border-radius: 5px;
+        opacity: 0%;
+        transition: 0.3s;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .hide2 {
+        border: 2px;
+        border-radius: 5px;
+        opacity: 0%;
+        transition: 0.3s;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .button-meet:hover {
+        text-decoration: 2px underline;
+        text-decoration-color: tomato;
+    }
+    
+    .button-support:hover {
+        text-decoration: 2px underline;
+        text-decoration-color: tomato;
+    }
+    
+    .button-meet:hover+.hide1 {
+        background: black;
+        color: white;
+        opacity: 100%;
+        padding: 50px;
+    }
+    
+    .button-support:hover+.hide2 {
+        background: black;
+        color: white;
+        opacity: 100%;
+        padding: 50px;
+    }
+    
+    #menuToggle {
+        display: block;
+        position: relative;
+        top: 50px;
+        left: 50px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    
+    #menuToggle a {
+        text-decoration: none;
+        color: #232323;
+        transition: color 0.3s ease;
+    }
+    
+    #menuToggle a:hover {
+        color: tomato;
+    }
+    
+    #menuToggle input {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0;
+        /* hide this */
+        z-index: 2;
+        /* and place it over the hamburger */
+        -webkit-touch-callout: none;
+    }
+    /*
  * Just a quick hamburger
  */
-
-#menuToggle span {
-    display: block;
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
-    background: gray;
-    border-radius: 3px;
-    z-index: 1;
-    transform-origin: 4px 0px;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
-}
-
-#menuToggle span:first-child {
-    transform-origin: 0% 0%;
-}
-
-#menuToggle span:nth-last-child(2) {
-    transform-origin: 0% 100%;
-}
-
-
-/* 
+    
+    #menuToggle span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: gray;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+    }
+    
+    #menuToggle span:first-child {
+        transform-origin: 0% 0%;
+    }
+    
+    #menuToggle span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+    /* 
  * Transform all the slices of hamburger
  * into a crossmark.
  */
-
-#menuToggle input:checked~span {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
-}
-
-
-/*
+    
+    #menuToggle input:checked~span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #232323;
+    }
+    /*
  * But let's hide the middle one.
  */
-
-#menuToggle input:checked~span:nth-last-child(3) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-
-/*
+    
+    #menuToggle input:checked~span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    /*
  * Ohyeah and the last one should go the other direction
  */
-
-#menuToggle input:checked~span:nth-last-child(2) {
-    transform: rotate(-45deg) translate(0, -1px);
-}
-
-
-/*
+    
+    #menuToggle input:checked~span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+    /*
  * Make this absolute positioned
  * at the top left of the screen
  */
-
-#menu {
-    position: absolute;
-    width: 300px;
-    margin: -100px 0 0 -50px;
-    padding: 50px;
-    padding-top: 125px;
-    background: whitesmoke;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
-    border-radius: 25px;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
-}
-
-#menu li {
-    padding: 10px 0;
-    font-size: 22px;
-}
-
-
-/*
+    
+    #menu {
+        position: absolute;
+        width: 300px;
+        margin: -100px 0 0 -50px;
+        padding: 50px;
+        padding-top: 125px;
+        background: whitesmoke;
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        /* to stop flickering of text in safari */
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        border-radius: 25px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    }
+    
+    #menu li {
+        padding: 10px 0;
+        font-size: 22px;
+    }
+    /*
  * And let's slide it in from the left
  */
-
-#menuToggle input:checked~ul {
-    transform: none;
-}
-
-
-/* Desktop view */
-
-@media only screen and (min-width:560px) {
-    .navigation {
-        display: none;
+    
+    #menuToggle input:checked~ul {
+        transform: none;
     }
-    .checkbox {
-        display: none;
+    /* Desktop view */
+    
+    @media only screen and (min-width:560px) {
+        .navigation {
+            display: none;
+        }
+        .checkbox {
+            display: none;
+        }
+        .menu {
+            display: none;
+        }
+        .menuToggle {
+            display: none;
+        }
+        #menuToggle {
+            display: none;
+        }
     }
-    .menu {
-        display: none;
+    
+    .drop {
+        text-align: center;
+        margin: 10px;
+        backdrop-filter: blur(10px);
+        height: auto;
+        width: 500px;
+        border: transparent;
+        border-radius: 10px;
     }
-    .menuToggle {
-        display: none;
+    
+    .hideAnon {
+        border: 2px;
+        border-radius: 5px;
+        opacity: 0%;
+        transition: 0.3s;
+        font-family: Arial, Helvetica, sans-serif;
     }
-    #menuToggle {
-        display: none;
+    
+    .glow-on-hover:hover+.hideAnon {
+        background: black;
+        color: white;
+        opacity: 100%;
+        padding: 50px;
     }
-}
-
-.drop {
-    text-align: center;
-    margin: 10px;
-    backdrop-filter: blur(10px);
-    height: auto;
-    width: 500px;
-    border: transparent;
-    border-radius: 10px;
-}
-
-.hideAnon {
-    border: 2px;
-    border-radius: 5px;
-    opacity: 0%;
-    transition: 0.3s;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.glow-on-hover:hover+.hideAnon {
-    background: black;
-    color: white;
-    opacity: 100%;
-    padding: 50px;
-}
-
-
-/* Handy view */
-
-@media only screen and (max-width:560px) {
-    .topnav {
-        display: none;
+    
+    .hideName {
+        border: 2px;
+        border-radius: 5px;
+        opacity: 0%;
+        transition: 0.3s;
+        font-family: Arial, Helvetica, sans-serif;
     }
-}
+    
+    .glow-on-hover:hover+.hideName {
+        background: black;
+        color: white;
+        opacity: 100%;
+        padding: 50px;
+    }
+    /* Handy view */
+    
+    @media only screen and (max-width: 560px) {
+        .topnav {
+            display: none;
+        }
+    }
