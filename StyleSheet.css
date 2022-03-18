@@ -443,6 +443,7 @@ img {
 }
 
 .drop {
+    margin: 10px;
     backdrop-filter: blur(10px);
     height: auto;
     width: 500px;
